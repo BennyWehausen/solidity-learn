@@ -133,11 +133,11 @@ contract SimpleToken is IERC20 {
 
     /**
      * @dev 查询授权额度
-     * @param owner 拥有资产的地址
+     * @param tokenOwner 拥有资产的地址
      * @param spender 被授权支出的地址
      */
-    function allowance(address owner, address spender) public view override returns (uint256) {
-        return _allowances[owner][spender];
+    function allowance(address tokenOwner, address spender) public view override returns (uint256) {
+        return _allowances[tokenOwner][spender];
     }
 
     /**
