@@ -34,8 +34,8 @@ JSON文件参考 https://docs.opensea.io/docs/metadata-standards,
 
 ![alt text](a69e49089c1783d3bc3b17f2850b45b5.png)
 
+# 作业3：编写一个讨饭合约
 <!-- 
- 作业3：编写一个讨饭合约
  任务目标
  使用 Solidity 编写一个合约，允许用户向合约地址发送以太币。
  记录每个捐赠者的地址和捐赠金额。
